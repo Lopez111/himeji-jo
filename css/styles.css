@@ -1,0 +1,192 @@
+/* ----------> CSS GOES HERE <------------ */
+
+
+
+#picture {
+   position: relative;
+   margin: 0px 0px 0px 0px;
+  /* flip horizontally */
+   transform: scaleX(-1);
+}
+
+.blah {
+  position: relative;
+  margin: 1%;
+}
+
+.first-txt {
+  position: absolute;
+  top: 20px;
+  left: 245px;
+  color: #735E38;
+  font-size: 40px;
+}
+
+
+.second-txt {
+  position: absolute;
+  top: 45px;
+  left: 885px;
+  color: #735E38;
+  font-size: 25px;
+}
+
+              h2:hover {
+              background-color: white;
+            }
+
+
+
+.third-txt{
+  position: absolute;
+  top: 37px;
+  left: 975px;
+  color: #735E38;
+  font-size: 25px;
+}
+
+.fourth-txt {
+  position: absolute;
+  top: 42px;
+  left: 1080px;
+  color: #735E38;
+  font-size: 20px;
+}
+
+.fifth-txt {
+  position: absolute;
+  top: 13px;
+  left: 1225px;
+  color: #735E38;
+  font-size: 25px;
+}
+
+
+.brown {
+  position: absolute;
+  color: brown;
+  background-color: #735E38;
+  width: 546px;
+  height: 1080px;
+  left: 1373px;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #ffffff;
+  height: 40px;
+  width: 125px;
+  top: 75px;
+  left: 375px;
+}
+
+#Linetwo {
+  position: relative;
+  height: 8px;
+  border-width: 1;
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 180px;
+}
+
+
+h1  {
+  position: absolute;
+  color: White;
+  top: 175px;
+  left: 50px;
+  font-size: 40px;
+}
+
+
+                  @keyframes h1_fade {
+                         0% { opacity: 0; }
+                         100% { opacity: 1; }
+                        }
+
+                  h1 {
+                        opacity: 0;
+                        animation: h1_fade 1s;
+                        animation-fill-mode: forwards ; /* <----- This tells the element style to remain at keyframe of 100% */
+                        animation-delay: 1s; /* <----- Sometimes its a good idea to delay the animation slightly */
+                      }
+
+
+#paragraph {
+  position: absolute;
+  color: white;
+  top: 275px;
+  left: 50px;
+  font-size: 15px;
+  text-align: left;
+  margin-right: 25px;
+}
+
+                      @keyframes paragraph_fade {
+                             0% { opacity: 0; }
+                             100% { opacity: 1; }
+                            }
+
+                      #paragraph {
+                            opacity: 0;
+                            animation: paragraph_fade 1s;
+                            animation-fill-mode: forwards ;
+                            animation-delay: 2s;
+                          }
+
+
+#paragraph2 {
+  position: absolute;
+  color: white;
+  top: 650px;
+  left: 50px;
+  font-size: 15px;
+  text-align: left;
+  margin-right: 25px;
+}
+
+
+                      @keyframes paragraph2_fade {
+                             0% { opacity: 0; }
+                             100% { opacity: 1; }
+                            }
+
+                      #paragraph2 {
+                            opacity: 0;
+                            animation: paragraph2_fade 1s;
+                            animation-fill-mode: forwards ;
+                            animation-delay: 3s;
+                          }
+
+hr {
+  height: 8px;
+  border-width: 1;
+  background-color: white;
+  margin-top: 175%;
+  margin-right: 10%;
+}
+
+#unesco {
+  position: absolute;
+  height: 55px;
+  width: 70px;
+  top: 1000px;
+  left: 425px;
+}
+
+
+p {
+
+  text-align: center;
+  font-size: 13px;
+  color: #735E38;
+  font-weight: bold;
+}
+
+#logo {
+  top: -40px;
+  left: -69px;
+  position: absolute;
+  height: 380px;
+  width: 510px;
+}
